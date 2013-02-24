@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Bad+Script);
+@import url(http://fonts.googleapis.com/css?family=Englebert);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400);
+
+body {
+    background-image: url(/hw2/resource/tile.gif);
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 650px;
+    margin: 0 auto;
+}
+
+
+form {
+    width: auto;
+    font-size: 17px;
+    line-height: 220%
+}
+
+
+
+h1 {
+    font-weight: bolder;
+    text-shadow: 1px 2px 2px #a2bf28;
+    font-size: 32px;
+    color: #1a6f3b;
+}
+
+li {
+    width: auto;
+}
+
+label {
+    display: inline;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #cbd0d3;
+    border-color: cornsilk;
+    padding: 4px;
+    color: black;
+    opacity: 1;
+}
+
+    input[type=submit]:hover, input[type=reset]:hover {
+        background-color: #78b20c;
+        box-shadow: 1px 1px 2px #147e30;
+    }
+/*
+:invalid { 
+  border-color: #78b20c;
+  box-shadow:0 0 5px #cbd0d3;
+}
+*/
+
+input:focus, select:focus, textarea:focus {
+    background-color: #ffedb2;
+    font-weight: bolder;
+    color: #147e30;
+
+}
+
+
+
+table {
+    
+    
+    margin: 0 auto;
+}
+
+
+hr {
+    width: auto;
+    color: #78b20c;
+    height: 3px;
+    background-color: #78b20c;
+}
+
+.profilePhoto {
+    padding: 0 30%;
+    height: 262px;
+    width: 240px;
+    
+}
+
+input, select, textarea {
+    border-radius: 4px;
+    font-size: 18px;
+    border-color: #665D5F;
+    border-width: 1px;
+    padding: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #371470;
+    font-style: italic;
+    font-weight: bold;
+    transition: all 0.8s ease-in-out;
+}
+
+    textarea:-moz-placeholder {
+        color: #a2bf28;
+        font-style: italic;
+        text-shadow: 1px 1px 0 #fff;
+    }
+
+legend {
+    font-size: 14px;
+    font-style: italic;
+    color: #665D5F;
+
+    margin-left: 20px;
+    padding: 0 10px;
+    text-shadow: 1px 1px 0 #ccc;
+}
+
+fieldset {
+    border:3px double #ccc;
+    border-radius: 8px;
+}
+
+input::-webkit-input-placeholder {
+    color: #f8c57c;
+    font-weight: normal;
+}
+
+.gray {
+    list-style-image: url(/hw2/resource/bullet_gray.png);
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px #78b20c;
+}
+
+.purple {
+    list-style-image: url(/hw2/resource/bullet_purple.png);
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px #78b20c;
+}
+
+.clear {
+    list-style-image: url(/hw2/resource/bullet_white.png);
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px #78b20c;
+}
+
+dd {
+    font-family: 'Bad Script', cursive;
+    font-size: 18px;
+    color: #371470;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    font-family: 'Satisfy', serif;
+    font-size: 32px;
+    color: #371470;
+    text-shadow: 1px 1px 1px #0094ff;
+    text-align: left;
+}
+
+.goto {
+    font-size: 20px;
+    color: #1a6f3b;
+    text-shadow: 1px 1px 2px #6f9439;
+}
+
+    .goto:hover {
+        font-size: 20px;
+        color: #371470;
+        text-shadow: 3px 3px 3px #b773ed;
+        font-weight: bolder;
+    }
+
+.profileTitle {
+   
+    font-family: 'Satisfy', serif;
+    font-size: 40px;
+    color: #665D5F;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ff00dc;
+ 
+}
+
+
+.welcome {
+    color: #666666;
+    font-size: 22px;
+    font-family: 'Englebert', sans-serif;
+}
+
+.qrcode {
+    height: 80px;
+    width: 80px;
+}
