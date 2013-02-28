@@ -1,0 +1,243 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Bad+Script);
+@import url(http://fonts.googleapis.com/css?family=Englebert);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400);
+
+body {
+    background-image: url(/hw3/resource/tile.gif);
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 600px;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 2em;
+    padding-left: 100px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+form {
+    width: auto;
+    font-size: 17px;
+    line-height: 220%;
+    border: 2px solid #1a6f3b;
+    padding: 10px;
+    border-radius: 8px;
+  
+}
+
+
+
+h1 {
+    font-weight: bolder;
+    text-shadow: 1px 2px 2px #a2bf28;
+    font-size: 32px;
+    color: #1a6f3b;
+}
+
+li {
+    width: auto;
+}
+
+label {
+    display: inline;
+}
+
+div {
+    text-align:right;
+    line-height:80%
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #cbd0d3;
+    border-color: cornsilk;
+    padding: 10px;
+    color: black;
+    opacity: 1;
+    border-radius: 8px;
+}
+
+    input[type=submit]:hover, input[type=reset]:hover {
+        background-color: #78b20c;
+        box-shadow: 2px 2px 5px #ccc;
+    }
+/*
+:invalid { 
+  border-color: #78b20c;
+  box-shadow:0 0 5px #cbd0d3;
+}
+*/
+
+input:focus, select:focus, textarea:focus {
+    background-color: #ffedb2;
+    font-weight: bolder;
+    color: #147e30;
+}
+
+
+table {
+    width: 380px;
+    margin: 0 auto;
+}
+
+
+hr {
+    width: auto;
+    color: #78b20c;
+    height: 8px;
+    background-color: #00FF00;
+}
+
+.profilePhoto {
+    height: 200px;
+    float: right;
+    padding-top: 3em;
+}
+
+input, select, textarea {
+    border-radius: 4px;
+    font-size: 18px;
+    border-color: #665D5F;
+    border-width: 1px;
+    padding: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #371470;
+    font-style: italic;
+    font-weight: bold;
+    transition: all 0.8s ease-in-out;
+}
+
+    textarea:-moz-placeholder {
+        color: #a2bf28;
+        font-style: italic;
+        text-shadow: 1px 1px 0 #fff;
+    }
+
+legend {
+    font-size: 14px;
+    font-style: italic;
+    color: #665D5F;
+    margin-left: 20px;
+    padding: 0 10px;
+    text-shadow: 1px 1px 0 #ccc;
+}
+
+fieldset {
+    border: 3px double #ccc;
+    border-radius: 8px;
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color: #f8c57c;
+    font-weight: normal;
+}
+
+
+
+.gray {
+    list-style-image: url(/hw3/resource/bullet_gray.png);
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #78b20c;
+}
+
+.purple {
+    list-style-image: url(/hw3/resource/bullet_purple.png);
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #78b20c;
+}
+
+.clear {
+    list-style-image: url(/hw3/resource/bullet_white.png);
+    font-family: 'Bad Script', cursive;
+    font-weight: normal;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #78b20c;
+}
+
+dd {
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    color: #371470;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    font-family: 'Satisfy', serif;
+    font-size: 24px;
+    color: #371470;
+    text-shadow: 1px 1px 1px #0094ff;
+    text-align: left;
+}
+
+.goto {
+    font-size: 20px;
+    color: #c30ccb;
+    text-shadow: 1px 1px 2px #6f9439;
+    margin-left: 20px;
+}
+
+    .goto:hover {
+        color: red;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-shadow: 3px 3px 3px #b773ed;
+        font-weight: bolder;
+    }
+
+.profileTitle {
+    font-family: 'Satisfy', serif;
+    font-size: 36px;
+    color: #0d2d70;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0094ff;
+}
+
+
+.welcome {
+    color: #666666;
+    font-size: 22px;
+    font-family: 'Englebert', sans-serif;
+}
+
+.qrcode {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+.email, .phone {
+    margin-left: 20px;
+}
+
+
+.bottomLine {
+    border-top: double;
+    border-color: #665D5F;
+    height: 0px;
+    background-color: transparent;
+}
+
+address {
+    padding-top: 5px;
+}
+
+
+footer {
+    margin-bottom: 2em;
+    font-size: 14px;
+}
