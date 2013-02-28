@@ -28,7 +28,7 @@ form {
     width: auto;
     font-size: 17px;
     line-height: 220%;
-    border: 2px solid #1a6f3b;
+    border: outset 5px #78b20c;
     padding: 10px;
     border-radius: 8px;
   
@@ -41,6 +41,12 @@ h1 {
     text-shadow: 1px 2px 2px #a2bf28;
     font-size: 32px;
     color: #1a6f3b;
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+    text-shadow: 1px 1px 1px #78b20c;
 }
 
 li {
@@ -61,7 +67,7 @@ div {
 input[type=submit], input[type=reset] {
     background-color: #cbd0d3;
     border-color: cornsilk;
-    padding: 10px;
+    padding: 8px;
     color: black;
     opacity: 1;
     border-radius: 8px;
@@ -93,15 +99,19 @@ table {
 
 hr {
     width: auto;
-    color: #78b20c;
+    color: #1a6f3b;
     height: 8px;
-    background-color: #00FF00;
+    background-color: #1a6f3b;
 }
 
 .profilePhoto {
     height: 200px;
     float: right;
     padding-top: 3em;
+}
+
+figure {
+    text-align:center;
 }
 
 input, select, textarea {
@@ -240,6 +250,6 @@ address {
 
 
 footer {
-    margin-bottom: 2em;
+    margin-bottom: 20px;
     font-size: 14px;
 }
