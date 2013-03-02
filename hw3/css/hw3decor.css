@@ -238,10 +238,12 @@ td {
 
 address {
     padding-top: 5px;
+    display: inline-block;
 }
 
 
 footer {
     margin-bottom: 20px;
     font-size: 14px;
+    text-align: center;
 }
