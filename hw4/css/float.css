@@ -1,0 +1,63 @@
+﻿body {
+    color: white;
+    width: 690px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+header, article, aside, footer {
+    display: block;
+}
+
+header {
+    background-color: blue;
+    width: 690px;
+    height: 25px;
+}
+
+nav {
+    background-color: green;
+    width: 690px;
+    height: 25px;
+}
+
+a {
+    color: white;
+}
+
+    a:link, a:visited {
+        text-decoration: none;
+    }
+
+li {
+    display: inline;
+    margin-right: 5px;
+}
+
+footer {
+    background-color: green;
+    width: 690px;
+    height: 25px;
+    clear: both;
+}
+
+article {
+    background-color: #be2ebf;
+    width: 460px;
+    height: 200px;
+    float: left;
+}
+
+section {
+    background-color: #8e1515;
+    height: 70px;
+    margin-top: 10px;
+}
+
+aside {
+    background-color: #296982;
+    width: 230px;
+    height: 200px;
+    float: right;
+}
