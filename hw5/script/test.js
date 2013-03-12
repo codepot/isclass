@@ -1,5 +1,5 @@
 ﻿function enterNumber_prompt() {
-    document.writeln("<h1>PL Homework 5</h1>")
+    document.writeln("<h1>Le, Phuc - Homework 5</h1>")
     var number = prompt("Please enter a number between 2 and 10:", "")
 
 
@@ -21,7 +21,6 @@
         for (var i = 0; i < lineNumber; i++) {
             for (var j = lineNumber-i; j > 0; j--) {
                 star += "*"
-
             }
             
             star += "<br>"
