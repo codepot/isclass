@@ -7,7 +7,7 @@
         document.writeln("<h2>Your input is " + number + ". The valid input number is between 2 and 10. Please reload this page and try again.")
     }
     else {
-        document.writeln("<h2>Your input number is " + number + " </h2><br>")
+        document.writeln("<h2>Your input number is " + number + " </h2>")
         var time = 0
         var result = number
         while (result > 0.000001) {
