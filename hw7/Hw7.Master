@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Hw7.master.cs" Inherits="IS445HW7.hw7.Hw7" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="/hw7/resource/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+    <article>
+    <form id="form1" runat="server">
+        <div>
+
+            <header>
+                <h1>LE, PHUC - IS445 HOMEWORK 7</h1>
+                <hr />
+            </header>
+            <div class="WithFooterBorder">
+                <div class="NonFooterBorder">
+                    <nav>
+                        <a class="goto" href="/hw7/Default.aspx">Home Page</a>
+
+                        <a class="goto" href="/hw7/Reservation.aspx">Room Reservation</a>
+
+                        <a class="goto" href="/hw7/About.aspx">About Me</a>
+                    </nav>
+
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <footer>
+                    <hr class="bottomLine" />
+                    <address>
+                        <span class="copy">Phuc Le &copy Contact Info:</span>
+                        <span class="email">Email: <a href="mailto:phucsaki@gmail.com">saki@gmail.com</a> </span>
+                        <span class="phone">Phone: 714-866-2223</span>
+                    </address>
+                </footer>
+            </div>
+        </div>
+    </form>
+        </article>
+</body>
+</html>

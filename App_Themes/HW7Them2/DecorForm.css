@@ -1,0 +1,195 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Englebert);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400);
+@import url(http://fonts.googleapis.com/css?family=Pompiere);
+
+body {
+    background-image: url(/hw7/resource/tile.gif);
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+}
+
+nav {
+    margin: 2em;
+    padding-left: 80px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+form {
+    width: auto;
+    font-size: 14px;
+    line-height: 220%;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Englebert', sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 2px 2px #a2bf28;
+    font-size: 32px;
+    color: #1a6f3b;
+    text-align: center;
+}
+
+
+
+.btnDecor {
+    background-color: #cbd0d3;
+    border-color: cornsilk;
+    padding: 8px;
+    color: black;
+   
+    border-radius: 6px;
+    width: 90px;
+}
+
+    .btnDecor:hover {
+        background-color: #78b20c;
+        box-shadow: 2px 2px 5px #ccc;
+        transition: opacity .05s ease;
+    }
+
+ 
+
+.email, .phone {
+    margin-left: 20px;
+}
+
+div {
+    text-align: right;
+    line-height: 80%;
+}
+
+hr {
+    width: auto;
+    color: #1a6f3b;
+    height: 8px;
+    background-color: #1a6f3b;
+}
+
+label {
+    font-family: 'Englebert', sans-serif;
+    font-size: 16px;
+}
+
+input, select, textarea {
+    border-radius: 4px;
+    font-size: 14px;
+    border-color: #665D5F;
+    border-width: 1px;
+    padding: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #371470;
+    font-style: italic;
+    font-weight: bold;
+    transition: all 0.8s ease-in-out;
+}
+
+    textarea:-moz-placeholder {
+        color: #a2bf28;
+        font-style: italic;
+        text-shadow: 1px 1px 0 #fff;
+    }
+
+
+
+
+legend {
+    font-size: 16px;
+    font-style: italic;
+    color: #665D5F;
+    margin-left: 20px;
+    padding: 0 10px;
+    text-shadow: 1px 1px 0 #ccc;
+}
+
+fieldset {
+    border: 3px double #ccc;
+    border-radius: 8px;
+    text-align: left;
+}
+
+
+
+.goto {
+    font-size: 15px;
+    color: #c30ccb;
+    text-shadow: 1px 1px 2px #6f9439;
+    margin-left: 20px;
+}
+
+    .goto:hover {
+        color: red;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-size: 14px;
+        text-shadow: 3px 3px 3px #b773ed;
+        font-weight: bolder;
+    }
+
+.myPhoto {
+    float: right;
+    padding-top: 20px;
+}
+
+
+.welcome {
+    text-align: center;
+    color: #187abb;
+    text-shadow: 2px 2px 2px #6bfbe5;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: 'Englebert', sans-serif;
+}
+
+.belowWelcomeLine {
+    text-align: center;
+    color: #371470;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Satisfy', serif;
+}
+
+.WithFooterBorder {
+    border: outset 5px #147e30;
+    padding: 20px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+
+
+.bottomLine {
+    border-top: double;
+    border-color: #665D5F;
+    height: 0px;
+    background-color: transparent;
+}
+
+address {
+    padding-top: 5px;
+    display: inline-block;
+}
+
+
+footer {
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
